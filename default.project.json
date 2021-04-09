@@ -1,0 +1,35 @@
+{
+  "name": "The Framework",
+  "servePort": 42069,
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$ignoreUnknownInstances": true,
+      "Common": {
+        "$path": "Source/Shared"
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$ignoreUnknownInstances": true,
+      "The Framework": {
+        "$path": "Source/Server"
+      }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "$ignoreUnknownInstances": true,
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$ignoreUnknownInstances": true,
+        "The Framework": {
+          "$path": "Source/Client"
+        }
+      }
+    }
+  }
+}
