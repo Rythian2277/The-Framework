@@ -3,15 +3,22 @@
   "servePort": 42069,
   "tree": {
     "$className": "DataModel",
-
     "ReplicatedStorage": {
       "$className": "ReplicatedStorage",
       "$ignoreUnknownInstances": true,
-      "Common": {
+      "FrameworkCommon": {
         "$path": "Source/Shared"
+      },
+      "UnitTesting": {
+        "$path": "Source/TestEZ"
+      },
+      "Tests": {
+        "$path": "Source/Tests"
+      },
+      "Framework": {
+        "$path": "Source/Assets"
       }
     },
-
     "ServerScriptService": {
       "$className": "ServerScriptService",
       "$ignoreUnknownInstances": true,
@@ -19,7 +26,6 @@
         "$path": "Source/Server"
       }
     },
-
     "StarterPlayer": {
       "$className": "StarterPlayer",
       "$ignoreUnknownInstances": true,
